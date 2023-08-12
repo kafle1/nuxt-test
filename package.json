@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "@vercel/node": "^2.15.9",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.6.4",
+    "@nuxt/image": "^0.7.1",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@pinia/nuxt": "^0.4.11",
+    "@prisma/client": "5.1.1",
+    "prisma": "^5.1.1"
+  }
+}
